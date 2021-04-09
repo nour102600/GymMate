@@ -79,9 +79,13 @@ GymMate is an application that helps people find workout buddies near them. User
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+User: username, password, what gym they go to, profile image
+Chat: 1 or more user, text chat box
+Post: username, what gym they go to, availability, profile image
 ### Models
-[Add table of models]
+|Property|Type|Description|
+|--------|----|-----------|
+|objectId|String|unique id for the user post (default field)|
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
