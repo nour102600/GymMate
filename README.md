@@ -83,9 +83,13 @@ User: username, password, what gym they go to, profile image
 Chat: 1 or more user, text chat box
 Post: username, what gym they go to, availability, profile image
 ### Models
+#### User Model
 |Property|Type|Description|
 |--------|----|-----------|
-|objectId|String|unique id for the user post (default field)|
+|username|String|unique name for the user to register|
+|password|String|password made by the user when registering|
+|userGym|String|gym that the user goes to|
+|image|File|profile image for the user|
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
