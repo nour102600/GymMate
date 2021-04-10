@@ -90,6 +90,9 @@ Post: username, what gym they go to, availability, profile image
 |password|String|password made by the user when registering|
 |userGym|String|gym that the user goes to|
 |image|File|profile image for the user|
+
+#### Post Model
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
